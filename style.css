@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+}
+body{
+    background-color:lightcoral;
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap:20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+#home{
+    display: flex;
+    justify-content: center;
+    gap:150px;
+    height: 80vh;
+    align-items: center;
+}
+#home img{
+    height:300px;
+    border-radius: 100%;
+}
+#home div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#home div button{
+    width:max-content;
+    margin-top: 10px;
+}
+#about{
+    display: flex;
+    justify-content: center;
+    gap:80px;
+    height:80vh;
+    align-items: center;
+    display: none;
+}
+#about img{
+    height:300px;
+    border-radius: 100%;
+}
+#abdiv{
+    width: 500px;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+    text-align: center;
+    display: none;
+}
+#cdiv img{
+    width:100px;
+}
+#cdiv{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border:3px solid black;
+    width:100%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: azure;   
+}
+#st{
+    width:70%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+#yle{
+    width:70%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+#fe img{
+    width: 100px;
+}
+#pro img{
+    width: 100px;
+}
+#pin img{
+    width: 100px;
+}
+#pin h1{
+    font-size: 30px;
+}
+#subham img{
+    width: 100px;
+}
+#subham h1{
+    font-size: 30px;
+}
+#soumya{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+#pinku{
+    font-size: 30px;
+}
+#fnd h1{
+    font-size: 30px;
+}
+#skill{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
